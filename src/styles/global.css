@@ -1,3 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Archivo";
+}
+
 html {
   color-scheme: dark;
 }
