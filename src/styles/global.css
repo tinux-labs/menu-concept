@@ -2,6 +2,14 @@
 
 @theme {
   --font-sans: "Archivo";
+
+  --color-canvas: #0a0603;
+  --color-fg: #b9a996;
+  --color-fg-muted: #a3978a;
+}
+
+body {
+  @apply bg-canvas text-fg min-h-screen antialiased min-w-80;
 }
 
 html {
